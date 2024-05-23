@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro.Examples;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -20,6 +21,7 @@ public class PlayerController : MonoBehaviour
 
     Animator animator;
     Rigidbody2D rbody;
+    
     
 
     void Start()
@@ -94,6 +96,15 @@ public class PlayerController : MonoBehaviour
         return angle;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+        if (collision.gameObject.tag == "Item")
+        {
+            Debug.Log("인벤토리에 넣어야하는데,,,");
+        }
+
+    }
 
 }
 
