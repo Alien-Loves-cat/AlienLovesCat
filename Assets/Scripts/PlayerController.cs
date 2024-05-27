@@ -101,7 +101,7 @@ public class PlayerController : MonoBehaviour
         
         if (collision.gameObject.tag == "Item")
         {
-            Debug.Log("ÀÎº¥Åä¸®¿¡ ³Ö¾î¾ßÇÏ´Âµ¥,,,");
+            Debug.Log("ì•„ì´í…œì„ ë¨¹ì–´ì•¼í•˜ëŠ”ë° ë§ì´ì£ ");
         }
 
     }
