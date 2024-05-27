@@ -10,7 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbfb9a2390b20ca4d80de4bee9f670db, type: 3}
-  m_Name: Item
+  m_Name: Fruit
   m_EditorClassIdentifier: 
-  itemName: 
-  itemImage: {fileID: 0}
+  itemName: Fruit
+  itemType: 0
+  itemImage: {fileID: 7293598183456022363, guid: 1ddc9afd21fec77489b1248d18f31b68, type: 3}
+  itemPrefab: {fileID: 1310891714687099779, guid: d0fd5b7aca6dc264196c5716e5e43960, type: 3}
